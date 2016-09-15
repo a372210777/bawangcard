@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>微乐锦艺城粉丝节</title>
+  <meta name="keywords" content="微乐,weile,welove,精确营销，精准营销，网络精确营销，网络精准营销，微乐营销，微乐网络营销，微乐广告营销,微乐互联网营销，移动互联网精确营销，微乐币，乐币">
+  <meta name="description" content="微乐是一个基于智能手机运营的精确营销平台。为企业提供最专业的移动互联网精确营销服务。全国统一服务热线400-020-9898.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="format-detection" content="telphone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" type="image/GIF" href="img/favicon.ico"/>
+  <style>
+  </style>
+</head>
+<body>
+    <div>
+      <img class="head" src="images/head.png" style="border-radius: 75px;width: 150px;height: 150px;position: fixed;margin: auto;left: 0;right: 0;">
+      <img src="images/head.gif" style="width:100%">
+    </div>
+
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+   var radio=0.6929740134744947;
+   var clientWidth=$(window).width();
+   var imageHeight=Math.floor(clientWidth/radio);
+   console.log("图片搞："+imageHeight)
+   var marginRadio=imageHeight*(300/970);
+   console.log(marginRadio)
+   $(".head").css({top:marginRadio+"px"})
+
+   var headRadio=290/670
+   var headWidth=clientWidth*headRadio;
+   $(".head").css({width:headWidth+"px",height:headWidth+"px",borderRadius:headWidth/2+"px"})
+
+</script>
+</html>
